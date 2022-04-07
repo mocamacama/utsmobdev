@@ -261,7 +261,7 @@ class _Home extends State<Home> {
                             children: [
                               Expanded(
                                 flex: 1,
-                                child: Icon(Icons.work_outlined),
+                                child: Icon(Icons.home_work),
                               ),
                               Expanded(
                                 flex: 4,
@@ -293,7 +293,7 @@ class _Home extends State<Home> {
                             children: [
                               Expanded(
                                 flex: 1,
-                                child: Icon(Icons.work_outlined),
+                                child: Icon(Icons.play_for_work),
                               ),
                               Expanded(
                                 flex: 4,
@@ -325,7 +325,7 @@ class _Home extends State<Home> {
                             children: [
                               Expanded(
                                 flex: 1,
-                                child: Icon(Icons.work_outlined),
+                                child: Icon(Icons.workspaces),
                               ),
                               Expanded(
                                 flex: 4,
