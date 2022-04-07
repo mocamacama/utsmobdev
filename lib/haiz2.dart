@@ -28,7 +28,7 @@ class _Explore extends State<Explore> {
               // ignore: prefer_const_literals_to_create_immutables
               children: [
                 Text("PIKACHU"),
-                // Image(image: AssetImage('assets/pikachu.jpg'))
+                Image(image: AssetImage('assets/pikachu1.jpg'))
               ],
             )));
   }

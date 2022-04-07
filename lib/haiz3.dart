@@ -39,21 +39,9 @@ class _Chat extends State<Chat> {
               // ignore: prefer_const_literals_to_create_immutables
               children: [
                 // ignore: prefer_const_constructors
-                Text("DropDown Menu"),
-                DropdownButton<String>(
-                  // ignore: prefer_const_constructors
-                  hint: Text("Pilih Menu"),
-                  value: terpilih,
-                  onChanged: (String? value) {
-                    setState(() => this.terpilih = value!);
-                  },
-                  items: arr1.map((String value) {
-                    return new DropdownMenuItem<String>(
-                      value: value,
-                      child: new Text(value),
-                    );
-                  }).toList(),
-                )
+
+                Text("PIKACHU"),
+                Image(image: AssetImage('assets/pikachu2.jpg'))
               ],
             )));
   }
