@@ -33,7 +33,7 @@ class _Home extends State<Home> {
                   "Popular course :",
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
-                SizedBox(width: 50),
+                SizedBox(height: 10),
                 Row(
                   children: [
                     Expanded(
@@ -71,6 +71,7 @@ class _Home extends State<Home> {
                     ),
                   ],
                 ),
+                SizedBox(height: 20),
                 Text(
                   "Continue Learning :",
                   style: TextStyle(fontWeight: FontWeight.bold),
@@ -87,20 +88,25 @@ class _Home extends State<Home> {
                           padding: EdgeInsets.all(10),
                           alignment: Alignment.topLeft,
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Icon(Icons.calendar_today),
+                              SizedBox(
+                                height: 10,
+                              ),
                               Text(
                                 "Science",
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
-                              Text(
-                                "Chapter 4",
-                              ),
+                              Text("Chapter 4", style: TextStyle(fontSize: 12)),
                               Row(
                                 children: [
                                   Icon(
                                     Icons.watch_rounded,
                                     size: 14,
+                                  ),
+                                  SizedBox(
+                                    height: 40,
                                   ),
                                   Text(
                                     "27 Mins",
@@ -120,20 +126,25 @@ class _Home extends State<Home> {
                           padding: EdgeInsets.all(10),
                           alignment: Alignment.centerLeft,
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Icon(Icons.stars),
+                              SizedBox(
+                                height: 10,
+                              ),
                               Text(
                                 "Design",
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
-                              Text(
-                                "Chapter 5",
-                              ),
+                              Text("Chapter 5", style: TextStyle(fontSize: 12)),
                               Row(
                                 children: [
                                   Icon(
                                     Icons.watch_rounded,
                                     size: 14,
+                                  ),
+                                  SizedBox(
+                                    height: 40,
                                   ),
                                   Text(
                                     "30 Mins",
@@ -153,20 +164,25 @@ class _Home extends State<Home> {
                           padding: EdgeInsets.all(10),
                           alignment: Alignment.centerLeft,
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Icon(Icons.track_changes_outlined),
+                              SizedBox(
+                                height: 10,
+                              ),
                               Text(
                                 "Biology",
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
-                              Text(
-                                "Chapter 1",
-                              ),
+                              Text("Chapter 1", style: TextStyle(fontSize: 12)),
                               Row(
                                 children: [
                                   Icon(
                                     Icons.watch_rounded,
                                     size: 14,
+                                  ),
+                                  SizedBox(
+                                    height: 40,
                                   ),
                                   Text(
                                     "25 Mins",
@@ -184,22 +200,27 @@ class _Home extends State<Home> {
                         child: Container(
                           color: Colors.lightGreen,
                           padding: EdgeInsets.all(10),
-                          alignment: Alignment.centerLeft,
+                          alignment: Alignment.topLeft,
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Icon(Icons.coffee),
+                              SizedBox(
+                                height: 10,
+                              ),
                               Text(
                                 "Cooking",
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
-                              Text(
-                                "Chapter 3",
-                              ),
+                              Text("Chapter 3", style: TextStyle(fontSize: 12)),
                               Row(
                                 children: [
                                   Icon(
                                     Icons.watch_rounded,
                                     size: 14,
+                                  ),
+                                  SizedBox(
+                                    height: 40,
                                   ),
                                   Text(
                                     "18 Mins",
@@ -215,7 +236,7 @@ class _Home extends State<Home> {
                     ],
                   ),
                 ),
-                SizedBox(width: 50),
+                SizedBox(height: 20),
                 Text(
                   "Last Seen Courses :",
                   style: TextStyle(fontWeight: FontWeight.bold),
