@@ -31,7 +31,7 @@ class _Chat extends State<Chat> {
 
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Chat"),
+          title: const Text("Chat, Test1 - 26416032"),
         ),
         body: Padding(
             padding: EdgeInsets.only(left: 10, right: 10, top: 10, bottom: 10),

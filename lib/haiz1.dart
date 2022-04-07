@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -18,10 +20,10 @@ class _Home extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Home'),
+          title: Text('Home, Test1 - 26416032'),
         ),
-        body: Padding(
-            padding: EdgeInsets.only(left: 10, right: 10, top: 10, bottom: 10),
+        body: Container(
+            padding: EdgeInsets.only(left: 10, right: 10, top: 20, bottom: 10),
             child: Column(
               // ignore: prefer_const_literals_to_create_immutables
               mainAxisAlignment: MainAxisAlignment.start,
@@ -68,6 +70,260 @@ class _Home extends State<Home> {
                       ),
                     ),
                   ],
+                ),
+                Text(
+                  "Continue Learning :",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                Container(
+                  padding: EdgeInsets.all(10),
+                  alignment: Alignment.centerLeft,
+                  child: Row(
+                    children: [
+                      Expanded(
+                        flex: 1,
+                        child: Container(
+                          color: Colors.lightGreen,
+                          padding: EdgeInsets.all(10),
+                          alignment: Alignment.topLeft,
+                          child: Column(
+                            children: [
+                              Icon(Icons.calendar_today),
+                              Text(
+                                "Science",
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              Text(
+                                "Chapter 4",
+                              ),
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.watch_rounded,
+                                    size: 14,
+                                  ),
+                                  Text(
+                                    "27 Mins",
+                                    style: TextStyle(fontSize: 10),
+                                  )
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(width: 10),
+                      Expanded(
+                        flex: 1,
+                        child: Container(
+                          color: Colors.lightGreen,
+                          padding: EdgeInsets.all(10),
+                          alignment: Alignment.centerLeft,
+                          child: Column(
+                            children: [
+                              Icon(Icons.stars),
+                              Text(
+                                "Design",
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              Text(
+                                "Chapter 5",
+                              ),
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.watch_rounded,
+                                    size: 14,
+                                  ),
+                                  Text(
+                                    "30 Mins",
+                                    style: TextStyle(fontSize: 10),
+                                  )
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(width: 10),
+                      Expanded(
+                        flex: 1,
+                        child: Container(
+                          color: Colors.lightGreen,
+                          padding: EdgeInsets.all(10),
+                          alignment: Alignment.centerLeft,
+                          child: Column(
+                            children: [
+                              Icon(Icons.track_changes_outlined),
+                              Text(
+                                "Biology",
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              Text(
+                                "Chapter 1",
+                              ),
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.watch_rounded,
+                                    size: 14,
+                                  ),
+                                  Text(
+                                    "25 Mins",
+                                    style: TextStyle(fontSize: 10),
+                                  )
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(width: 10),
+                      Expanded(
+                        flex: 1,
+                        child: Container(
+                          color: Colors.lightGreen,
+                          padding: EdgeInsets.all(10),
+                          alignment: Alignment.centerLeft,
+                          child: Column(
+                            children: [
+                              Icon(Icons.coffee),
+                              Text(
+                                "Cooking",
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              Text(
+                                "Chapter 3",
+                              ),
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.watch_rounded,
+                                    size: 14,
+                                  ),
+                                  Text(
+                                    "18 Mins",
+                                    style: TextStyle(fontSize: 10),
+                                  )
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(width: 30),
+                    ],
+                  ),
+                ),
+                SizedBox(width: 50),
+                Text(
+                  "Last Seen Courses :",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                SizedBox(width: 50),
+                Container(
+                  padding: EdgeInsets.all(10),
+                  alignment: Alignment.centerLeft,
+                  child: Column(
+                    children: [
+                      Container(
+                          decoration: BoxDecoration(
+                              color: Colors.pinkAccent,
+                              border: Border.all(
+                                color: Colors.pinkAccent,
+                              ),
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                          padding: EdgeInsets.all(10),
+                          margin: EdgeInsets.only(top: 10),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                flex: 1,
+                                child: Icon(Icons.work_outlined),
+                              ),
+                              Expanded(
+                                flex: 4,
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text("Basic of Designing"),
+                                    Text("1 hour, 25 mins")
+                                  ],
+                                ),
+                              ),
+                              Expanded(
+                                flex: 1,
+                                child: Icon(Icons.play_circle_filled),
+                              ),
+                            ],
+                          )),
+                      Container(
+                          decoration: BoxDecoration(
+                              color: Colors.pinkAccent,
+                              border: Border.all(
+                                color: Colors.pinkAccent,
+                              ),
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                          padding: EdgeInsets.all(10),
+                          margin: EdgeInsets.only(top: 10),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                flex: 1,
+                                child: Icon(Icons.work_outlined),
+                              ),
+                              Expanded(
+                                flex: 4,
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text("Human Respiratory System"),
+                                    Text("4 hour, 10 mins")
+                                  ],
+                                ),
+                              ),
+                              Expanded(
+                                flex: 1,
+                                child: Icon(Icons.play_circle_filled),
+                              ),
+                            ],
+                          )),
+                      Container(
+                          decoration: BoxDecoration(
+                              color: Colors.pinkAccent,
+                              border: Border.all(
+                                color: Colors.pinkAccent,
+                              ),
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                          padding: EdgeInsets.all(10),
+                          margin: EdgeInsets.only(top: 10),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                flex: 1,
+                                child: Icon(Icons.work_outlined),
+                              ),
+                              Expanded(
+                                flex: 4,
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text("Integration & Differentiation"),
+                                    Text("2 hour, 37 mins"),
+                                  ],
+                                ),
+                              ),
+                              Expanded(
+                                flex: 1,
+                                child: Icon(Icons.play_circle_filled),
+                              ),
+                            ],
+                          )),
+                    ],
+                  ),
                 )
               ],
             )));

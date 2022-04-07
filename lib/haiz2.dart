@@ -20,7 +20,7 @@ class _Explore extends State<Explore> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Explore"),
+          title: const Text("Explore, Test1 - 26416032"),
         ),
         body: Padding(
             padding: EdgeInsets.only(left: 10, right: 10, top: 10, bottom: 10),
